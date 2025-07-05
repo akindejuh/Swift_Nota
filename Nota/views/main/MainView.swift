@@ -11,10 +11,10 @@ import FirebaseCore
 
 
 struct MainView: View {
-    @State var count = 1;
-    
     var body: some View {
-        LoginView()
+        NavigationView {
+            LoginView()
+        }
     }
 }
 

@@ -10,6 +10,7 @@
 		3D7FAA632E195519006867CC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3D7FAA622E195519006867CC /* FirebaseAuth */; };
 		3D7FAA652E195519006867CC /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3D7FAA642E195519006867CC /* FirebaseCore */; };
 		3D7FAA692E195672006867CC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3D7FAA682E195672006867CC /* FirebaseFirestore */; };
+		3DB181612E198DFE00FFF3C0 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3DB181602E198DFE00FFF3C0 /* FirebaseAnalytics */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 			files = (
 				3D7FAA652E195519006867CC /* FirebaseCore in Frameworks */,
 				3D7FAA632E195519006867CC /* FirebaseAuth in Frameworks */,
+				3DB181612E198DFE00FFF3C0 /* FirebaseAnalytics in Frameworks */,
 				3D7FAA692E195672006867CC /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,6 +126,7 @@
 				3D7FAA622E195519006867CC /* FirebaseAuth */,
 				3D7FAA642E195519006867CC /* FirebaseCore */,
 				3D7FAA682E195672006867CC /* FirebaseFirestore */,
+				3DB181602E198DFE00FFF3C0 /* FirebaseAnalytics */,
 			);
 			productName = Nota;
 			productReference = 3D6F876F2E163B300005D888 /* Nota.app */;
@@ -604,6 +607,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3D7FAA612E195519006867CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
+		};
+		3DB181602E198DFE00FFF3C0 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D7FAA612E195519006867CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
